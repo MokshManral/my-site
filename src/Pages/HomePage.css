@@ -1,0 +1,126 @@
+:root{
+  --second: #0b93fb;
+  --color:rgb(255, 255, 255);
+  --background-color:linear-gradient( to right,#002490,#002438);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.firstPage{
+  background: var(--background-color);
+  height: 100%;
+  width: 100%;
+  padding: 0px 8vw;
+  color: var(--color);
+  height: 100vh;
+  width: 100%;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.header h3{
+  display: flex;
+  align-items: center;
+}
+
+.aboutme{
+  margin-top: 10px;
+  font-weight: 200;
+}
+
+.information{
+  margin-top: 200px;
+  gap: 10px;
+  max-width: 600px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.main h1{
+  font-size: 45px;
+  text-transform: uppercase;
+}
+
+.main h1 span{
+  color: #0265d6;
+  text-transform: uppercase;
+  letter-spacing:2px;
+
+}
+
+.main h4{
+  display: flex;
+  justify-content: end;
+}
+
+.social-links{
+  display: flex;
+  justify-content: space-between;
+  width: 230px;
+  position: absolute;
+  bottom: 100px;
+}
+
+.header-nav{
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+}
+
+.foranimation:hover{
+  color:rgb(12, 126, 249);
+  transition: .2s ease-in-out;
+}
+
+.social-link{
+  border: 1px solid white;
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-link:hover{
+  background-color:rgb(255, 255, 255);
+  transition: .5s ease-in-out;
+  color: black;
+}
+
+.contact-button{
+  border: none;
+  padding: 8px 0px;
+  color: black;
+  width: 100px;
+}
+
+.hire-button{
+  margin-top: 10px;
+  width: 150px;
+}
+
+.hire-button:hover{
+  background-color: #0265d6;
+  border: none;
+  color: white;
+  transition: background-color ease-in-out 0.2s;
+}
+
+.robot-picture{
+  height: 750px;
+  position: absolute;
+  bottom: 0px;
+  right: 8vw;
+  filter:drop-shadow(5px 5px black);
+}

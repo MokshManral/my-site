@@ -1,0 +1,27 @@
+.contactButton{
+  color: black;
+  height: 35px;
+  width: 150px;
+  cursor: pointer;
+  background-color: #ffffff;
+  border: none;
+}
+
+.contactButton:hover{
+  background-color: .0684e5;
+  color: white;
+  transition: .2s ease-in;
+}
+
+
+
+.logo{
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+.logo:hover{
+  color: #000;
+}
+
