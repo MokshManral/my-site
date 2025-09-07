@@ -1,0 +1,25 @@
+# Dependency directories
+node_modules/
+dist/
+
+# Optional cache directories
+.cache/
+.vite/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System files
+.DS_Store
+
+# Production build
+build/
+
+# Local env files
+.env.local
+.env.*.local
+
+# gh-pages deploy cache
+node_modules/.cache/gh-pages/
